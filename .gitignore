@@ -25,3 +25,5 @@ asyncexecutor-communicator-springcloud/build/
 asyncexecutor-context/build/
 asyncexecutor-core/build/
 asyncexecutor-agent/build/
+asyncexecutor-agent-dubbo/build/
+asyncexecutor-agent-springcloud/build/

@@ -2,7 +2,7 @@ plugins {
     java
 }
 
-group = "io.asyncexecutor.agent"
+group = "io.asyncexecutor.agent.dubbo"
 version = "1.0"
 
 repositories {
@@ -11,6 +11,4 @@ repositories {
 
 dependencies {
     testCompile("junit", "junit", "4.12")
-
-    implementation(project(":asyncexecutor-context"))
 }

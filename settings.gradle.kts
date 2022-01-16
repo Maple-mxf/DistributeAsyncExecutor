@@ -19,6 +19,10 @@ include("asyncexecutor-memory-api")
 //
 include("asyncexecutor-memory-mysql")
 //
-include("asyncexecutor-agent")
+include("asyncexecutor-agent-api")
 //
 include("asyncexecutor-context")
+//
+include("asyncexecutor-agent-springcloud")
+//
+include("asyncexecutor-agent-dubbo")

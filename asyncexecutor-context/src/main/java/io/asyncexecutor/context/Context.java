@@ -42,7 +42,14 @@ public final class Context implements java.io.Serializable {
      */
     private CopyOnWriteArrayList<Trace> traces;
     /**
-     *
+     * 阶段ID
      */
-    private volatile String stepId;
+    private volatile String stageId;
+    /**
+     * 分布式任务执行TraceId 利用链路追踪
+     */
+    private String traceId;
+
+    protected void save(){}
+
 }
