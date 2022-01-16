@@ -1,0 +1,27 @@
+# IntelliJ project files
+.idea
+*.iml
+out
+gen
+.gitignore
+.gradle/
+.idea/.gitignore
+.idea/codeStyles/
+.idea/compiler.xml
+.idea/google-java-format.xml
+.idea/gradle.xml
+.idea/jarRepositories.xml
+.idea/misc.xml
+.idea/modules/
+gradle/
+
+# Build dir
+asyncexecutor-model/build/
+asyncexecutor-memory-api/build/
+asyncexecutor-memory-mysql/build/
+asyncexecutor-communicator-api/build/
+asyncexecutor-communicator-dubbo/build/
+asyncexecutor-communicator-springcloud/build/
+asyncexecutor-context/build/
+asyncexecutor-core/build/
+asyncexecutor-agent/build/
