@@ -5,17 +5,21 @@ import io.asyncexecutor.context.RetryStrategy;
 
 import java.util.List;
 
-public interface AsyncTask {
+public interface DistributeAsyncTask {
 
   default String name() {
     return this.getClass().getSimpleName();
   }
 
-  default String tag() {
-    return "";
+  default boolean retryable() {
+    return false;
   }
 
-  List<CompletionStage> stages();
+  default Integer retryMaxTimes() {
+    return 3;
+  }
+
+  List<CompletionStage> stageList();
 
   default Long timeoutMills() {
     return -1L;

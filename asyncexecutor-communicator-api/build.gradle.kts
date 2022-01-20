@@ -2,7 +2,7 @@ plugins {
     java
 }
 
-group = "io.asyncexecutor"
+group = "io.asyncexecutor.communicator.api"
 version = "1.0"
 
 repositories {
