@@ -10,5 +10,7 @@ repositories {
 }
 
 dependencies {
+    implementation(group = "org.projectlombok", name = "lombok", version = "1.18.20")
+
     testCompile("junit", "junit", "4.12")
 }

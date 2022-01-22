@@ -20,4 +20,7 @@ dependencies {
     implementation(group = "com.google.protobuf", name = "protobuf-java", version = "3.15.8")
     implementation(group = "org.projectlombok", name = "lombok", version = "1.18.20")
     implementation(group = "com.google.guava", name = "guava", version = "29.0-jre")
+
+    implementation(project(":asyncexecutor-context"))
+    implementation(project(":asyncexecutor-communicator-api"))
 }

@@ -2,7 +2,7 @@ plugins {
     java
 }
 
-group = "io.asyncexecutor"
+group = "io.asyncexecutor.communicator.api"
 version = "1.0"
 
 repositories {
@@ -10,5 +10,6 @@ repositories {
 }
 
 dependencies {
+    implementation(project(":asyncexecutor-context"))
     testCompile("junit", "junit", "4.12")
 }

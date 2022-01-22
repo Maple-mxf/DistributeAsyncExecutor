@@ -27,3 +27,4 @@ asyncexecutor-core/build/
 asyncexecutor-agent/build/
 asyncexecutor-agent-dubbo/build/
 asyncexecutor-agent-springcloud/build/
+asyncexecutor-agent-api-logic/build/

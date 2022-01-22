@@ -26,3 +26,4 @@ include("asyncexecutor-context")
 include("asyncexecutor-agent-springcloud")
 //
 include("asyncexecutor-agent-dubbo")
+include("asyncexecutor-agent-api-logic")
