@@ -24,9 +24,11 @@ dependencies {
 
     implementation(project(":asyncexecutor-context"))
     implementation(project(":asyncexecutor-agent-api"))
+    implementation(project(":asyncexecutor-agent-api-logic"))
 
     implementation("org.springframework.boot:spring-boot-starter-web")
     implementation("org.springframework.cloud:spring-cloud-starter-gateway")
+    implementation("org.springframework.cloud:spring-cloud-starter-openfeig")
 
     testImplementation("junit", "junit", "4.12")
     testImplementation("org.springframework.boot:spring-boot-starter-test")
